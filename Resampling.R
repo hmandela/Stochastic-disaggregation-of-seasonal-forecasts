@@ -1,4 +1,4 @@
-Resampling=function(chemin.in,seas,prevu,n){
+Briggs_wilks_resampling=function(chemin.in,seas,prevu,n){
 
   #read station files
   kandi_val<- read_csv(chemin.in, col_types = cols(year = col_character()))
